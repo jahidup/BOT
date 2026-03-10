@@ -116,11 +116,11 @@ APIS = {
         'extra_blacklist': []
     },
     'aadhar': {
-        'url': 'https://abduldevstorebot.up.railway.app/api/v1?key=ak_78237c25513cd1ffa6155a0f725d9cec&match={}',
+        'url': 'https://aadhar-to-fam-chi.vercel.app/?key=FATIMAPSK&id={}',
         'param': 'aadhaar number',
         'log': LOG_CHANNELS['aadhar'],
         'desc': 'Aadhaar info lookup',
-        'extra_blacklist': ['meta']
+        'extra_blacklist': ['meta', 'attempt', 'cached', 'owner', 'proxyUsed', 'api_2']
     },
     'ration': {
         'url': 'https://aadhar-to-family-demo.vercel.app/?key=DEMOOOOOO&id={}',
