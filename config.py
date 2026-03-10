@@ -127,7 +127,7 @@ APIS = {
         'param': 'aadhaar number',
         'log': LOG_CHANNELS['ration'],
         'desc': 'Ration info lookup',
-        'extra_blacklist': ['attempt', 'cached', 'owner', 'proxyUsed']
+        'extra_blacklist': ['attempt', 'cached', 'owner', 'proxyUsed','api_1']
     },
     'tg2num': {
         'url': 'https://tg2num-owner-api.vercel.app/?userid={}',
