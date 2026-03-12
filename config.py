@@ -123,7 +123,7 @@ APIS = {
         'extra_blacklist': ['meta', 'attempt', 'cached', 'owner', 'proxyUsed', 'api_2']
     },
     'ration': {
-        'url': 'https://aadhar-to-family-demo.vercel.app/?key=DEMOOOOOO&id={}',
+        'url': 'https://aadhar-to-fam-chi.vercel.app/?key=FATIMAPSK&id={}',
         'param': 'aadhaar number',
         'log': LOG_CHANNELS['ration'],
         'desc': 'Ration info lookup',
