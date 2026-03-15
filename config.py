@@ -135,7 +135,7 @@ APIS = {
         'log': LOG_CHANNELS['tg2num'],
         'desc': 'Telegram to number lookup',
         'extra_blacklist': ['hours_remaining', 'days_remaining', 'expires_on', 'validity', 'channel', 'credit','note', 'help_group', 'admin',
-                           'owner', 'response_time', 'your_usage
+                           'owner', 'response_time', 'your_usage'
                            ]
     },
 }
