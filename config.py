@@ -130,11 +130,13 @@ APIS = {
         'extra_blacklist': ['attempt', 'cached', 'owner', 'proxyUsed','api_1']
     },
     'tg2num': {
-        'url': 'https://tg2num-owner-api.vercel.app/?userid={}',
+        'url': 'https://tg-to-num-six.vercel.app/?key=rootxsuryansh&q={}',
         'param': 'telegram user ID',
         'log': LOG_CHANNELS['tg2num'],
         'desc': 'Telegram to number lookup',
-        'extra_blacklist': ['hours_remaining', 'days_remaining', 'expires_on', 'validity', 'channel', 'credit']
+        'extra_blacklist': ['hours_remaining', 'days_remaining', 'expires_on', 'validity', 'channel', 'credit','note', 'help_group', 'admin',
+                           'owner', 'response_time', 'your_usage
+                           ]
     },
 }
 
