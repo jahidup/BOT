@@ -123,11 +123,11 @@ APIS = {
         'extra_blacklist': ['meta', 'attempt', 'cached', 'owner', 'proxyUsed', 'api_2']
     },
     'ration': {
-        'url': 'https://aadhar-to-fam-chi.vercel.app/?key=FATIMAPSK&id={}',
+        'url': 'https://store.abdulstoreapi.workers.dev/api/v1?key=ak_3a5ccadcd84bd509257650f6c7afa313&term={}',
         'param': 'aadhaar number',
         'log': LOG_CHANNELS['ration'],
         'desc': 'Ration info lookup',
-        'extra_blacklist': ['attempt', 'cached', 'owner', 'proxyUsed','api_1']
+        'extra_blacklist': ['meta']
     },
     'tg2num': {
         'url': 'https://tg-to-num-six.vercel.app/?key=rootxsuryansh&q={}',
