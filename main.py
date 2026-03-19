@@ -1,3 +1,4 @@
+# main.py
 import logging
 import os
 import json
@@ -138,7 +139,7 @@ def clean_api_response(data, extra_blacklist=None):
     if extra_blacklist is None:
         extra_blacklist = []
     
-    # Blacklist को lowercase में रखें (case-insensitive comparison के लिए)
+    # Blacklist को lowercase में रखें (case‑insensitive comparison के लिए)
     blacklist = [item.lower() for item in extra_blacklist]
     
     if isinstance(data, dict):
@@ -394,6 +395,7 @@ async def process_api_call(message: types.Message, api_type: str, input_data: st
     formatted_json, is_truncated = format_json_for_display(raw_data, 3500)
     formatted_json = formatted_json.replace('<', '&lt;').replace('>', '&gt;')
     json_size = len(json.dumps(raw_data, ensure_ascii=False))
+    # File send condition: if JSON size > 3000 characters OR contains a large list
     should_send_as_file = json_size > 3000 or (isinstance(raw_data, dict) and any(isinstance(v, list) and len(v) > 10 for v in raw_data.values()))
 
     temp_file = None
@@ -599,9 +601,9 @@ async def show_profile(callback: types.CallbackQuery):
     bot_info = await bot.get_me()
     link = f"https://t.me/{bot_info.username}?start=ref_{user_data['user_id']}"
     stats = await get_user_stats(callback.from_user.id)
-    referrals = stats[0] if stats else 0
-    codes_claimed = stats[1] if stats else 0
-    total_from_codes = stats[2] if stats else 0
+    referrals = stats['referrals'] if stats else 0
+    codes_claimed = stats['codes_claimed'] if stats else 0
+    total_from_codes = stats['total_from_codes'] if stats else 0
     lookups = await get_user_lookups(callback.from_user.id, limit=5)
     msg = (f"👤 <b>User Profile</b>\n\n"
            f"🆔 <b>ID:</b> <code>{user_data['user_id']}</code>\n"
