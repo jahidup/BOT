@@ -74,11 +74,11 @@ APIS = {
         'extra_blacklist': []
     },
     'vehicle_to_number': {                    # 🔥 NAYA
-        'url': 'https://car-mix-fee-demo.vercel.app/?rc={}&key=DEMO',
+        'url': 'https://vehicle-num-damo.vercel.app/?key=root&number={}',
         'param': 'RC number',
         'log': LOG_CHANNELS['vehicle_to_number'],
         'desc': 'Vehicle Owner Mobile Number',
-        'extra_blacklist': ['branding', '"branding": "rootx-osint.in | RootX Osint"']
+        'extra_blacklist': ['branding', '"branding": "rootx-osint.in | RootX Osint"','credit']
     },
     'pincode': {
         'url': 'https://api.postalpincode.in/pincode/{}',
