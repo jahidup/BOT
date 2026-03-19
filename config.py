@@ -78,7 +78,7 @@ APIS = {
         'param': 'RC number',
         'log': LOG_CHANNELS['vehicle_to_number'],
         'desc': 'Vehicle Owner Mobile Number',
-        'extra_blacklist': ['branding', '"branding": "rootx-osint.in | RootX Osint"','credit']
+        'extra_blacklist': [ '"credit": "@rootxindia"', '"branding": "@rootxindia",']
     },
     'pincode': {
         'url': 'https://api.postalpincode.in/pincode/{}',
