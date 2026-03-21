@@ -32,11 +32,11 @@ LOG_CHANNELS = {
 
 APIS = {
     'num': {
-        'url': 'https://number-info-ten.vercel.app/?key=lundkinger3&number={}',
+        'url': 'https://api.b77bf911.workers.dev/mobile?number={}',
         'param': 'number',
         'log': LOG_CHANNELS['num'],
         'desc': 'Mobile number lookup',
-        'extra_blacklist': []
+        'extra_blacklist': ['source', 'input']
     },
     'ifsc': {
         'url': 'https://abbas-apis.vercel.app/api/ifsc?ifsc={}',
