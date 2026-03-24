@@ -74,11 +74,11 @@ APIS = {
         'extra_blacklist': []
     },
     'vehicle_to_number': {                    # 🔥 NAYA
-        'url': 'https://vehicle-num-damo.vercel.app/?key=root&number={}',
+        'url': 'https://users-xinfo-admin.vercel.app/api?key=7demo&type=vehicle&term={}',
         'param': 'RC number',
         'log': LOG_CHANNELS['vehicle_to_number'],
         'desc': 'Vehicle Owner Mobile Number',
-        'extra_blacklist': ['branding', 'credit']
+        'extra_blacklist': ['@UsersXinfo_admin', 'tag']
     },
     'pincode': {
         'url': 'https://api.postalpincode.in/pincode/{}',
@@ -116,11 +116,11 @@ APIS = {
         'extra_blacklist': []
     },
     'aadhar': {
-        'url': 'https://aadhar-to-fam-chi.vercel.app/?key=FATIMAPSK&id={}',
+        'url': 'https://users-xinfo-admin.vercel.app/api?key=7demo&type=aadhar&term={}',
         'param': 'aadhaar number',
         'log': LOG_CHANNELS['aadhar'],
         'desc': 'Aadhaar info lookup',
-        'extra_blacklist': ['meta', 'attempt', 'cached', 'owner', 'proxyUsed', 'api_2']
+        'extra_blacklist': ['tag']
     },
     'ration': {
         'url': 'https://store.abdulstoreapi.workers.dev/api/v1?key=ak_3a5ccadcd84bd509257650f6c7afa313&term={}',
