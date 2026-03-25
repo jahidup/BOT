@@ -60,7 +60,7 @@ APIS = {
         'extra_blacklist': []
     },
     'vehicle': {
-        'url': 'https://vehicle-info-aco-api.vercel.app/info?vehicle={}',
+        'url': 'https://reseller-host.vercel.app/api/rc?number={}',
         'param': 'RC number',
         'log': LOG_CHANNELS['vehicle'],
         'desc': 'Vehicle registration details',
