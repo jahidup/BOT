@@ -247,7 +247,7 @@ def get_main_menu(user_id):
             InlineKeyboardButton(text="📱 Aadhaar", callback_data="api_aadhar")
         ],
         [
-            InlineKeyboardButton(text="📱 Ration", callback_data="api_ration"),
+            InlineKeyboardButton(text="📱 Family", callback_data="api_family"),
             InlineKeyboardButton(text="🆔 TG2Num", callback_data="api_tg2num")
         ],
         [
@@ -758,7 +758,7 @@ async def ask_api_input(callback: types.CallbackQuery, state: FSMContext):
         'pakistan': "🇵🇰 Enter Pakistan Mobile Number (with country code)",
         'ip': "🌐 Enter IP Address",
         'aadhar': "📱 Enter Aadhaar Number (12 digits)",
-        'ration': "📱 Enter Aadhaar Number for Ration Info (12 digits)",
+        'family': "📱 Enter Aadhaar Number for Family Info (12 digits)",
         'tg2num': "🆔 Enter Telegram User ID",
     }
     instructions = prompts.get(api_type, "Enter input")
