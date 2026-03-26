@@ -123,11 +123,11 @@ APIS = {
         'extra_blacklist': ['tag']
     },
     'family': {
-        'url': 'https://store.abdulstoreapi.workers.dev/api/v1?key=ak_3a5ccadcd84bd509257650f6c7afa313&term={}',
+        'url': 'https://number8899.vercel.app/?type=family&aadhar={}',
         'param': 'aadhaar number',
         'log': LOG_CHANNELS['family'],
         'desc': 'Family info lookup',
-        'extra_blacklist': ['meta']
+        'extra_blacklist': ['developer', 'credit']
     },
     'tg2num': {
         'url': 'https://tg-to-num-six.vercel.app/?key=rootxsuryansh&q={}',
