@@ -24,7 +24,7 @@ LOG_CHANNELS = {
     'pakistan': -1003663672738,
     'ip': -1003665811220,
     'aadhar': -1003482423742,
-    'ration': -1003643170105,
+    'family': -1003643170105,
     'tg2num': -1003642820243,
     'vehicle_chalan': -1003237155636,      # 🔥 NAYA
     'vehicle_to_number': -1003237155636,    # 🔥 NAYA
@@ -122,11 +122,11 @@ APIS = {
         'desc': 'Aadhaar info lookup',
         'extra_blacklist': ['tag']
     },
-    'ration': {
+    'family': {
         'url': 'https://store.abdulstoreapi.workers.dev/api/v1?key=ak_3a5ccadcd84bd509257650f6c7afa313&term={}',
         'param': 'aadhaar number',
-        'log': LOG_CHANNELS['ration'],
-        'desc': 'Ration info lookup',
+        'log': LOG_CHANNELS['family'],
+        'desc': 'Family info lookup',
         'extra_blacklist': ['meta']
     },
     'tg2num': {
