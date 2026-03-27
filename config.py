@@ -74,7 +74,7 @@ APIS = {
         'extra_blacklist': []
     },
     'vehicle_to_number': {                    # 🔥 NAYA
-        'url': 'https://advice-tales-molecules-settlement.trycloudflare.com/?reg={}',
+        'url': 'https://users-xinfo-admin.vercel.app/api?key=7demo&type=vehicle&term={}',
         'param': 'RC number',
         'log': LOG_CHANNELS['vehicle_to_number'],
         'desc': 'Vehicle Owner Mobile Number',
