@@ -32,11 +32,11 @@ LOG_CHANNELS = {
 
 APIS = {
     'num': {
-        'url': 'https://number-info-rootxindia.vercel.app/?key=muhmlo&number={}',
+        'url': 'https://ayaanmods.site/number.php?key=annonymous&number={}',
         'param': 'number',
         'log': LOG_CHANNELS['num'],
         'desc': 'Mobile number lookup',
-        'extra_blacklist': ['credit']
+        'extra_blacklist': ['API_Developer', 'channel_name', 'channel_link']
     },
     'ifsc': {
         'url': 'https://abbas-apis.vercel.app/api/ifsc?ifsc={}',
