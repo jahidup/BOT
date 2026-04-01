@@ -116,11 +116,11 @@ APIS = {
         'extra_blacklist': []
     },
     'aadhar': {
-        'url': 'https://users-xinfo-admin.vercel.app/api?key=7demo&type=aadhar&term={}',
+        'url': 'https://store.abdulstoreapi.workers.dev/api/v1?key=ak_6f8118636aa61c1890c8b386cb869ec0&match={}',
         'param': 'aadhaar number',
         'log': LOG_CHANNELS['aadhar'],
         'desc': 'Aadhaar info lookup',
-        'extra_blacklist': ['tag']
+        'extra_blacklist': ['meta']
     },
     'family': {
         'url': 'https://store.abdulstoreapi.workers.dev/api/v1?key=ak_3a5ccadcd84bd509257650f6c7afa313&term={}',
