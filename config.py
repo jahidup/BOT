@@ -74,11 +74,11 @@ APIS = {
         'extra_blacklist': []
     },
     'vehicle_to_number': {                    # 🔥 NAYA
-        'url': 'https://users-xinfo-admin.vercel.app/api?key=7demo&type=vehicle&term={}',
+        'url': 'https://ayaanmods.site/vehicle.php?key=annonymousvehicle&number={}',
         'param': 'RC number',
         'log': LOG_CHANNELS['vehicle_to_number'],
         'desc': 'Vehicle Owner Mobile Number',
-        'extra_blacklist': ['owner', 'tag']
+        'extra_blacklist': ['owner', 'credits']
     },
     'pincode': {
         'url': 'https://api.postalpincode.in/pincode/{}',
