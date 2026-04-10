@@ -60,7 +60,7 @@ APIS = {
         'extra_blacklist': []
     },
     'vehicle': {
-        'url': 'https://vehicle-info-aco-api.vercel.app/info?vehicle={}',
+        'url': 'https://reseller-host.vercel.app/api/rc?number={}',
         'param': 'RC number',
         'log': LOG_CHANNELS['vehicle'],
         'desc': 'Vehicle registration details',
@@ -74,7 +74,7 @@ APIS = {
         'extra_blacklist': []
     },
     'vehicle_to_number': {                    # 🔥 NAYA
-        'url': 'https://ayaanmods.site/vehicle.php?key=annonymousvehicle&number={}',
+        'url': 'https://test-veh-by-unknown-batter.vercel.app/car?key=king&rc={}',
         'param': 'RC number',
         'log': LOG_CHANNELS['vehicle_to_number'],
         'desc': 'Vehicle Owner Mobile Number',
