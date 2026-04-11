@@ -39,11 +39,11 @@ APIS = {
         'extra_blacklist': ['API_Developer', 'channel_name', 'channel_link']
     },
     'ifsc': {
-        'url': 'https://abbas-apis.vercel.app/api/ifsc?ifsc={}',
+        'url': 'https://ifsc-info-api-abhigyan-codes.onrender.com/ifsc?code={}',
         'param': 'ifsc',
         'log': LOG_CHANNELS['ifsc'],
         'desc': 'IFSC code lookup',
-        'extra_blacklist': []
+        'extra_blacklist': ['channel', 'developer']
     },
     'email': {
         'url': 'https://abbas-apis.vercel.app/api/email?mail={}',
@@ -53,11 +53,11 @@ APIS = {
         'extra_blacklist': []
     },
     'gst': {
-        'url': 'https://api.b77bf911.workers.dev/gst?number={}',
+        'url': 'https://gst-info-api-by-abhigyan-codes-1.onrender.com/gst?number={}',
         'param': 'gst',
         'log': LOG_CHANNELS['gst'],
         'desc': 'GST number lookup',
-        'extra_blacklist': []
+        'extra_blacklist': ['meta']
     },
     'vehicle': {
         'url': 'https://api.b77bf911.workers.dev/vehicle?registration={}',
@@ -102,11 +102,11 @@ APIS = {
         'extra_blacklist': []
     },
     'pakistan': {
-        'url': 'https://abbas-apis.vercel.app/api/pakistan?number={}',
+        'url': 'https://pak-number-and-cnic-info-api-by-abhigyan.onrender.com/api/lookup?query=92{}',
         'param': 'number',
         'log': LOG_CHANNELS['pakistan'],
         'desc': 'Pakistan mobile number lookup',
-        'extra_blacklist': []
+        'extra_blacklist': ['copyright']
     },
     'ip': {
         'url': 'https://ipwho.is/{}',
@@ -123,19 +123,18 @@ APIS = {
         'extra_blacklist': ['meta']
     },
     'family': {
-        'url': 'https://store.abdulstoreapi.workers.dev/api/v1?key=ak_3a5ccadcd84bd509257650f6c7afa313&term={}',
+        'url': 'https://sbsakib.eu.cc/sab/?key=Demo&type=id_family&term={}',
         'param': 'aadhaar number',
         'log': LOG_CHANNELS['family'],
         'desc': 'Family info lookup',
-        'extra_blacklist': ['meta']
+        'extra_blacklist': ['owner']
     },
     'tg2num': {
-        'url': 'https://tg-to-num-six.vercel.app/?key=rootxsuryansh&q={}',
+        'url': 'https://sbsakib.eu.cc/api/Tg_username/?key=Premium_User&username={}',
         'param': 'telegram user ID',
         'log': LOG_CHANNELS['tg2num'],
         'desc': 'Telegram to number lookup',
-        'extra_blacklist': ['hours_remaining', 'days_remaining', 'expires_on', 'validity', 'channel', 'credit','note', 'help_group', 'admin',
-                           'owner', 'response_time', 'your_usage', '9277193139']
+        'extra_blacklist': ['developer', 'key_status', 'owner', '9277193139']
     },
 }
 
