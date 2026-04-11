@@ -60,11 +60,11 @@ APIS = {
         'extra_blacklist': []
     },
     'vehicle': {
-        'url': 'https://reseller-host.vercel.app/api/rc?number={}',
+        'url': 'https://api.b77bf911.workers.dev/vehicle?registration={}',
         'param': 'RC number',
         'log': LOG_CHANNELS['vehicle'],
         'desc': 'Vehicle registration details',
-        'extra_blacklist': []
+        'extra_blacklist': ['challan']
     },
     'vehicle_chalan': {                      # 🔥 NAYA
         'url': 'https://api.b77bf911.workers.dev/vehicle?registration={}',
