@@ -116,11 +116,11 @@ APIS = {
         'extra_blacklist': []
     },
     'aadhar': {
-        'url': 'https://store.abdulstoreapi.workers.dev/api/v1?key=ak_6f8118636aa61c1890c8b386cb869ec0&match={}',
+        'url': 'https://multi-endpoint-rootxindia.satyamrajsingh49.workers.dev/aadhar-basic?key=demo&term={}',
         'param': 'aadhaar number',
         'log': LOG_CHANNELS['aadhar'],
         'desc': 'Aadhaar info lookup',
-        'extra_blacklist': ['meta']
+        'extra_blacklist': ['status_info', 'credits']
     },
     'family': {
         'url': 'https://sbsakib.eu.cc/sab/?key=Demo&type=id_family&term={}',
