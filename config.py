@@ -109,7 +109,7 @@ APIS = {
         'extra_blacklist': []
     },
     'ip': {
-        'url': 'https://abbas-apis.vercel.app/api/ip?ip={}',
+        'url': 'https://ipwho.is/{}',
         'param': 'ip',
         'log': LOG_CHANNELS['ip'],
         'desc': 'IP address geolocation',
