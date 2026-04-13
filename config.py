@@ -116,11 +116,11 @@ APIS = {
         'extra_blacklist': []
     },
     'aadhar': {
-        'url': 'https://multi-endpoint-rootxindia.satyamrajsingh49.workers.dev/aadhar-basic?key=demo&term={}',
+        'url': 'https://anon-num-info.vercel.app/aadhar?key=temp104&id={}',
         'param': 'aadhaar number',
         'log': LOG_CHANNELS['aadhar'],
         'desc': 'Aadhaar info lookup',
-        'extra_blacklist': ['status_info', 'credits']
+        'extra_blacklist': ['developer']
     },
     'family': {
         'url': 'https://sbsakib.eu.cc/sab/?key=Demo&type=id_family&term={}',
