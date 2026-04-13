@@ -46,11 +46,11 @@ APIS = {
         'extra_blacklist': ['channel', 'developer']
     },
     'email': {
-        'url': 'https://abbas-apis.vercel.app/api/email?mail={}',
+        'url': 'https://anon-email-info.vercel.app/email?key=tempe124&email={}',
         'param': 'email',
         'log': LOG_CHANNELS['email'],
         'desc': 'Email validation & domain info',
-        'extra_blacklist': []
+        'extra_blacklist': ['developer']
     },
     'gst': {
         'url': 'https://gst-info-api-by-abhigyan-codes-1.onrender.com/gst?number={}',
@@ -88,11 +88,11 @@ APIS = {
         'extra_blacklist': []
     },
     'instagram': {
-        'url': 'https://mkhossain.alwaysdata.net/instanum.php?username={}',
+        'url': 'https://anon-insta-info.vercel.app/profile?key=temp104&username={}',
         'param': 'username',
         'log': LOG_CHANNELS['instagram'],
         'desc': 'Instagram user info',
-        'extra_blacklist': []
+        'extra_blacklist': ['developer']
     },
     'github': {
         'url': 'https://abbas-apis.vercel.app/api/github?username={}',
@@ -109,11 +109,11 @@ APIS = {
         'extra_blacklist': ['copyright']
     },
     'ip': {
-        'url': 'https://ipwho.is/{}',
+        'url': 'https://anon-multi-info.vercel.app/ipinfo?key=temp104&ip={}',
         'param': 'ip',
         'log': LOG_CHANNELS['ip'],
         'desc': 'IP address geolocation',
-        'extra_blacklist': []
+        'extra_blacklist': ['developer']
     },
     'aadhar': {
         'url': 'https://anon-num-info.vercel.app/aadhar?key=temp104&id={}',
