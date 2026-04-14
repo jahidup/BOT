@@ -32,11 +32,11 @@ LOG_CHANNELS = {
 
 APIS = {
     'num': {
-        'url': 'https://ayaanmods.site/number.php?key=annonymous&number={}',
+        'url': 'https://anon-num-info.vercel.app/num?key=temp094&num={}',
         'param': 'number',
         'log': LOG_CHANNELS['num'],
         'desc': 'Mobile number lookup',
-        'extra_blacklist': ['API_Developer', 'channel_name', 'channel_link']
+        'extra_blacklist': ['Developer']
     },
     'ifsc': {
         'url': 'https://ifsc-info-api-abhigyan-codes.onrender.com/ifsc?code={}',
