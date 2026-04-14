@@ -60,11 +60,11 @@ APIS = {
         'extra_blacklist': ['meta']
     },
     'vehicle': {
-        'url': 'https://api.b77bf911.workers.dev/vehicle?registration={}',
+        'url': 'https://anon-vehicle-info.vercel.app/rc?key=temp114&rc={}',
         'param': 'RC number',
         'log': LOG_CHANNELS['vehicle'],
         'desc': 'Vehicle registration details',
-        'extra_blacklist': ['challan']
+        'extra_blacklist': ['developer']
     },
     'vehicle_chalan': {                      # 🔥 NAYA
         'url': 'https://api.b77bf911.workers.dev/vehicle?registration={}',
@@ -74,11 +74,11 @@ APIS = {
         'extra_blacklist': []
     },
     'vehicle_to_number': {                    # 🔥 NAYA
-        'url': 'https://anon-vehicle-info.vercel.app/rc?key=temp114&rc={}',
+        'url': 'https://devil.elementfx.com/api.php?key=TRIAL&type=vehicle&term={}',
         'param': 'RC number',
         'log': LOG_CHANNELS['vehicle_to_number'],
         'desc': 'Vehicle Owner Mobile Number',
-        'extra_blacklist': ['developer']
+        'extra_blacklist': ['owner', 'source']
     },
     'pincode': {
         'url': 'https://api.postalpincode.in/pincode/{}',
@@ -116,11 +116,11 @@ APIS = {
         'extra_blacklist': ['developer']
     },
     'aadhar': {
-        'url': 'https://anon-num-info.vercel.app/aadhar?key=temp104&id={}',
+        'url': 'https://devil.elementfx.com/api.php?key=TRIAL&type=aadhaar_info&term={}',
         'param': 'aadhaar number',
         'log': LOG_CHANNELS['aadhar'],
         'desc': 'Aadhaar info lookup',
-        'extra_blacklist': ['developer']
+        'extra_blacklist': ['owner']
     },
     'family': {
         'url': 'https://sbsakib.eu.cc/sab/?key=Demo&type=id_family&term={}',
@@ -130,11 +130,11 @@ APIS = {
         'extra_blacklist': ['owner']
     },
     'tg2num': {
-        'url': 'https://sbsakib.eu.cc/api/Tg_username/?key=Premium_User&username={}',
+        'url': 'https://devil.elementfx.com/api.php?key=TRIAL&type=tg_number&term={}',
         'param': 'telegram user ID',
         'log': LOG_CHANNELS['tg2num'],
         'desc': 'Telegram to number lookup',
-        'extra_blacklist': ['developer', 'key_status', 'owner', '9277193139']
+        'extra_blacklist': ['owner', '9277193139']
     },
 }
 
