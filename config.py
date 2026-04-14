@@ -11,7 +11,7 @@ CHANNEL_LINKS = [
     "https://t.me/legend_chats_osint"
 ]
 
-# Log Channels – अपनी चैनल IDs यहाँ डालें (बॉट को admin बनाना न भूलें)
+# Log Channels – अपनी चैनल IDs यहाँ डालें (बॉट को admin बनाना न भूलें.)
 LOG_CHANNELS = {
     'num': -1003482423742,
     'ifsc': -1003624886596,
