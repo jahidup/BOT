@@ -95,11 +95,11 @@ APIS = {
         'extra_blacklist': ['developer']
     },
     'github': {
-        'url': 'https://abbas-apis.vercel.app/api/github?username={}',
+        'url': 'https://info-github-api.vercel.app/api/github?username={}',
         'param': 'username',
         'log': LOG_CHANNELS['github'],
         'desc': 'GitHub user info',
-        'extra_blacklist': []
+        'extra_blacklist': ['credits']
     },
     'pakistan': {
         'url': 'https://pak-number-and-cnic-info-api-by-abhigyan.onrender.com/api/lookup?query=92{}',
