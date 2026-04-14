@@ -32,11 +32,11 @@ LOG_CHANNELS = {
 
 APIS = {
     'num': {
-        'url': 'https://number-info.satyamrajsingh562.workers.dev/?key=demo&number={}',
+        'url': 'https://ayaanmods.site/number.php?key=annonymous&number={}',
         'param': 'number',
         'log': LOG_CHANNELS['num'],
         'desc': 'Mobile number lookup',
-        'extra_blacklist': ['key_status', 'requests_left', 'api_credits', ]
+        'extra_blacklist': ['API_Developer', 'channel_name', 'channel_link', ]
     },
     'ifsc': {
         'url': 'https://ifsc-info-api-abhigyan-codes.onrender.com/ifsc?code={}',
