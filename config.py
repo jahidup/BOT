@@ -126,7 +126,7 @@ APIS = {
         'param': 'aadhaar number',
         'log': LOG_CHANNELS['family'],
         'desc': 'Family info lookup',
-        'extra_blacklist': ['owner', 'contact']
+        'extra_blacklist': ['owner', 'contact', 'status']
     },
     'tg2num': {
         'url': 'https://devil.elementfx.com/api.php?key=TRIAL&type=tg_number&term={}',
