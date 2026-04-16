@@ -4,9 +4,9 @@ OWNER_ID = 8104850843
 ADMIN_IDS = [5987905091]
 
 # Force Join Channels
-CHANNELS = [-1003090922367, -1003698567122]
+CHANNELS = [-1003672015073, -1003698567122]
 CHANNEL_LINKS = [
-    "https://t.me/all_data_here",
+    "https://t.me/legend_chats_osint",
     "https://t.me/osint_lookup"
 ]
 
