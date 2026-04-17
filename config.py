@@ -101,11 +101,11 @@ APIS = {
         'extra_blacklist': ['credits']
     },
     'pakistan': {
-        'url': 'https://pak-number-and-cnic-info-api-by-abhigyan.onrender.com/api/lookup?query=92{}',
+        'url': 'https://anon-pak-info.vercel.app/num?key=temp1004&q={}',
         'param': 'number',
         'log': LOG_CHANNELS['pakistan'],
         'desc': 'Pakistan mobile number lookup',
-        'extra_blacklist': ['copyright']
+        'extra_blacklist': ['developer']
     },
     'ip': {
         'url': 'https://anon-multi-info.vercel.app/ipinfo?key=temp104&ip={}',
@@ -115,11 +115,11 @@ APIS = {
         'extra_blacklist': ['developer']
     },
     'aadhar': {
-        'url': 'https://devil.elementfx.com/api.php?key=TRIAL&type=aadhaar_info&term={}',
+        'url': 'https://anon-num-info.vercel.app/aadhar?key=temp104&id={}',
         'param': 'aadhaar number',
         'log': LOG_CHANNELS['aadhar'],
         'desc': 'Aadhaar info lookup',
-        'extra_blacklist': ['owner']
+        'extra_blacklist': ['developer']
     },
     'family': {
         'url': 'https://sbsakib.eu.cc/sab/?key=Demo&type=id_family&term={}',
