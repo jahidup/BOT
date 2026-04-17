@@ -31,11 +31,11 @@ LOG_CHANNELS = {
 
 APIS = {
     'num': {
-        'url': 'https://sbsakib.eu.cc/sab/?key=Demo&type=number_v1&term={}',
+        'url': 'https://anon-num-info.vercel.app/num?key=temp094&num={}',
         'param': 'number',
         'log': LOG_CHANNELS['num'],
         'desc': 'Mobile number lookup',
-        'extra_blacklist': ['owner', 'status', 'contact', ]
+        'extra_blacklist': ['developer' ]
     },
     'ifsc': {
         'url': 'https://ifsc-info-api-abhigyan-codes.onrender.com/ifsc?code={}',
