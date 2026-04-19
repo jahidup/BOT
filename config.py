@@ -115,11 +115,11 @@ APIS = {
         'extra_blacklist': ['developer']
     },
     'aadhar': {
-        'url': 'https://anon-num-info.vercel.app/aadhar?key=temp104&id={}',
+        'url': 'https://sbsakib.eu.cc/apis/aadhaar?key=Demo&id={}',
         'param': 'aadhaar number',
         'log': LOG_CHANNELS['aadhar'],
         'desc': 'Aadhaar info lookup',
-        'extra_blacklist': ['developer']
+        'extra_blacklist': ['owners']
     },
     'family': {
         'url': 'https://sbsakib.eu.cc/sab/?key=Demo&type=id_family&term={}',
@@ -129,11 +129,11 @@ APIS = {
         'extra_blacklist': ['owner', 'contact', 'status']
     },
     'tg2num': {
-        'url': 'https://devil.elementfx.com/api.php?key=TRIAL&type=tg_number&term={}',
+        'url': 'https://api-rootxindia.vercel.app/?type=tg_num&key=demo&query={}',
         'param': 'telegram user ID',
         'log': LOG_CHANNELS['tg2num'],
         'desc': 'Telegram to number lookup',
-        'extra_blacklist': ['owner', '9277193139']
+        'extra_blacklist': ['req_left', 'req_total']
     },
 }
 
