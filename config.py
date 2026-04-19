@@ -31,11 +31,11 @@ LOG_CHANNELS = {
 
 APIS = {
     'num': {
-        'url': 'https://anon-num-info.vercel.app/num?key=temp094&num={}',
+        'url': 'https://gateway.debax.site/api/1?key=Trial-Deba&query={}',
         'param': 'number',
         'log': LOG_CHANNELS['num'],
         'desc': 'Mobile number lookup',
-        'extra_blacklist': ['developer' ]
+        'extra_blacklist': []
     },
     'ifsc': {
         'url': 'https://ifsc-info-api-abhigyan-codes.onrender.com/ifsc?code={}',
