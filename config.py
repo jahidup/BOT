@@ -38,11 +38,11 @@ APIS = {
         'extra_blacklist': []
     },
     'ifsc': {
-        'url': 'https://ifsc-info-api-abhigyan-codes.onrender.com/ifsc?code={}',
+        'url': 'https://api-rootxindia.vercel.app/?type=num&key=demo&query={}',
         'param': 'ifsc',
         'log': LOG_CHANNELS['ifsc'],
         'desc': 'IFSC code lookup',
-        'extra_blacklist': ['channel', 'developer']
+        'extra_blacklist': ['req_total', 'req_left', 'proxyUsed']
     },
     'email': {
         'url': 'https://anon-email-info.vercel.app/email?key=tempe124&email={}',
