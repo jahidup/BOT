@@ -31,18 +31,18 @@ LOG_CHANNELS = {
 
 APIS = {
     'num': {
-        'url': 'https://gateway.debax.site/api/1?key=Trial-Deba&query={}',
+        'url': 'https://api-rootxindia.vercel.app/?type=num&key=demo&query={}',
         'param': 'number',
         'log': LOG_CHANNELS['num'],
         'desc': 'Mobile number lookup',
-        'extra_blacklist': []
+        'extra_blacklist': ['req_total', 'req_left', 'proxyUsed']
     },
     'ifsc': {
         'url': 'https://api-rootxindia.vercel.app/?type=num&key=demo&query={}',
         'param': 'ifsc',
         'log': LOG_CHANNELS['ifsc'],
         'desc': 'IFSC code lookup',
-        'extra_blacklist': ['req_total', 'req_left', 'proxyUsed']
+        'extra_blacklist': []
     },
     'email': {
         'url': 'https://anon-email-info.vercel.app/email?key=tempe124&email={}',
@@ -122,18 +122,18 @@ APIS = {
         'extra_blacklist': ['owners']
     },
     'family': {
-        'url': 'https://sbsakib.eu.cc/sab/?key=Demo&type=id_family&term={}',
+        'url': 'https://intelx-premium-apipanel.vercel.app/INTELXDEMO5?FADHAR={}',
         'param': 'aadhaar number',
         'log': LOG_CHANNELS['family'],
         'desc': 'Family info lookup',
-        'extra_blacklist': ['owner', 'contact', 'status']
+        'extra_blacklist': ['_powered_by']
     },
     'tg2num': {
-        'url': 'https://api-rootxindia.vercel.app/?type=tg_num&key=demo&query={}',
+        'url': 'https://intelx-premium-apipanel.vercel.app/INTELXDEMO?USERID={}',
         'param': 'telegram user ID',
         'log': LOG_CHANNELS['tg2num'],
         'desc': 'Telegram to number lookup',
-        'extra_blacklist': ['req_left', 'req_total']
+        'extra_blacklist': ['owner', 'proxyUsed', '_powered_by']
     },
 }
 
