@@ -38,7 +38,7 @@ APIS = {
         'extra_blacklist': ['req_total', 'req_left', 'proxyUsed']
     },
     'ifsc': {
-        'url': 'https://api-rootxindia.vercel.app/?type=num&key=demo&query={}',
+        'url': 'https://ab-ifscinfoapi.vercel.app/info?ifsc={}',
         'param': 'ifsc',
         'log': LOG_CHANNELS['ifsc'],
         'desc': 'IFSC code lookup',
