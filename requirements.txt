@@ -4,4 +4,3 @@ python-dotenv>=1.0.0
 httpx>=0.24.0
 Flask>=2.0.0
 apscheduler>=3.10.0
-hypercorn 
