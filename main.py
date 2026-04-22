@@ -759,7 +759,7 @@ async def ask_api_input(callback: types.CallbackQuery, state: FSMContext):
         'ip': "🌐 Enter IP Address",
         'aadhar': "📱 Enter Aadhaar Number (12 digits)",
         'family': "👨‍👩‍👦 Enter Aadhaar Number for Family Info (12 digits)",
-        'tg2num': "🆔 Enter Telegram User ID",
+        'tg2num': "🆔 Enter Telegram User ID or Username",
     }
     instructions = prompts.get(api_type, "Enter input")
     await callback.message.answer(
