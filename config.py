@@ -115,11 +115,11 @@ APIS = {
         'extra_blacklist': ['developer']
     },
     'aadhar': {
-        'url': 'https://sbsakib.eu.cc/apis/aadhaar?key=Demo&id={}',
+        'url': 'https://store.abdulstoreapi.workers.dev/api/v1?key=ak_6f8118636aa61c1890c8b386cb869ec0&match={}',
         'param': 'aadhaar number',
         'log': LOG_CHANNELS['aadhar'],
         'desc': 'Aadhaar info lookup',
-        'extra_blacklist': ['owners']
+        'extra_blacklist': ['meta', 'provider']
     },
     'family': {
         'url': 'https://intelx-premium-apipanel.vercel.app/INTELXDEMO5?FADHAR={}',
