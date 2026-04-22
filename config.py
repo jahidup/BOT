@@ -73,11 +73,11 @@ APIS = {
         'extra_blacklist': []
     },
     'vehicle_to_number': {                    # 🔥 NAYA
-        'url': 'https://devil.elementfx.com/api.php?key=TRIAL&type=vehicle&term={}',
+        'url': 'https://trance-twins-searched-consent.trycloudflare.com/?rc={}',
         'param': 'RC number',
         'log': LOG_CHANNELS['vehicle_to_number'],
         'desc': 'Vehicle Owner Mobile Number',
-        'extra_blacklist': ['owner', 'source']
+        'extra_blacklist': []
     },
     'pincode': {
         'url': 'https://api.postalpincode.in/pincode/{}',
