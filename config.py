@@ -31,11 +31,11 @@ LOG_CHANNELS = {
 
 APIS = {
     'num': {
-        'url': 'https://api-rootxindia.vercel.app/?type=num&key=demo&query={}',
+        'url': 'https://intelx-premium-apipanel.vercel.app/INTELXDEMO3?NUMBER={}',
         'param': 'number',
         'log': LOG_CHANNELS['num'],
         'desc': 'Mobile number lookup',
-        'extra_blacklist': ['req_total', 'req_left', 'proxyUsed']
+        'extra_blacklist': ['_powered_by']
     },
     'ifsc': {
         'url': 'https://ab-ifscinfoapi.vercel.app/info?ifsc={}',
@@ -73,11 +73,11 @@ APIS = {
         'extra_blacklist': []
     },
     'vehicle_to_number': {                    # 🔥 NAYA
-        'url': 'https://trance-twins-searched-consent.trycloudflare.com/?rc={}',
+        'url': 'https://intelx-premium-apipanel.vercel.app/INTELXDEMO2?Rc_number={}',
         'param': 'RC number',
         'log': LOG_CHANNELS['vehicle_to_number'],
         'desc': 'Vehicle Owner Mobile Number',
-        'extra_blacklist': []
+        'extra_blacklist': ['_powered_by']
     },
     'pincode': {
         'url': 'https://api.postalpincode.in/pincode/{}',
