@@ -115,11 +115,11 @@ APIS = {
         'extra_blacklist': ['developer']
     },
     'aadhar': {
-        'url': 'https://store.abdulstoreapi.workers.dev/api/v1?key=ak_6f8118636aa61c1890c8b386cb869ec0&match={}',
+        'url': 'https://intelx-premium-apipanel.vercel.app/INTELXDEMO4?AADHAR={}',
         'param': 'aadhaar number',
         'log': LOG_CHANNELS['aadhar'],
         'desc': 'Aadhaar info lookup',
-        'extra_blacklist': ['meta', 'provider']
+        'extra_blacklist': ['_powered_by']
     },
     'family': {
         'url': 'https://intelx-premium-apipanel.vercel.app/INTELXDEMO5?FADHAR={}',
