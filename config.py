@@ -4,9 +4,10 @@ OWNER_ID = 8104850843
 ADMIN_IDS = [5987905091]
 
 # Force Join Channels
-CHANNELS = [-1003672015073]
+CHANNELS = [-1003672015073, -1003835394090]
 CHANNEL_LINKS = [
-    "https://t.me/legend_chats_osint"
+    "https://t.me/legend_chats_osint",
+    "https://t.me/osint_father_NP"
 ]
 
 # Log Channels – अपनी चैनल IDs यहाँ डालें (बॉट को admin बनाना न भूलें.)
