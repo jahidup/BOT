@@ -59,11 +59,11 @@ APIS = {
         'extra_blacklist': ['meta']
     },
     'vehicle': {
-        'url': 'https://techvishalboss.com/api/v1/lookup.php?key=TVB_FULL_52F4672E&service=vehicle&rc={}',
+        'url': 'https://anon-vehicle-info.vercel.app/rc?key=temp114&rc=',
         'param': 'RC number',
         'log': LOG_CHANNELS['vehicle'],
         'desc': 'Vehicle registration details',
-        'extra_blacklist': ['Developer', 'Website', 'Provider', 'Mobile_API', 'transKey', 'message', 'attribution']
+         'extra_blacklist': ['developer']
     },
     'vehicle_chalan': {                      # 🔥 NAYA
         'url': 'https://api.b77bf911.workers.dev/vehicle?registration={}',
@@ -73,11 +73,11 @@ APIS = {
         'extra_blacklist': []
     },
     'vehicle_to_number': {                    # 🔥 NAYA
-        'url': 'https://techvishalboss.com/api/v1/lookup.php?key=TVB_FULL_52F4672E&service=vehicle_owner_number&rc={}',
+        'url': 'https://intelx-premium-apipanel.vercel.app/INTELXDEMO2?Rc_number={}',
         'param': 'RC number',
         'log': LOG_CHANNELS['vehicle_to_number'],
         'desc': 'Vehicle Owner Mobile Number',
-        'extra_blacklist': ['attribution', 'message']
+        'extra_blacklist': ['_powered_by']
     },
     'pincode': {
         'url': 'https://api.postalpincode.in/pincode/{}',
@@ -122,11 +122,11 @@ APIS = {
         'extra_blacklist': ['_powered_by']
     },
     'family': {
-        'url': 'https://techvishalboss.com/api/v1/lookup.php?key=TVB_FULL_52F4672E&service=aadhar_ration&aadhar={}',
+        'url': 'https://intelx-premium-apipanel.vercel.app/INTELXDEMO5?FADHAR={}',
         'param': 'aadhaar number',
         'log': LOG_CHANNELS['family'],
         'desc': 'Family info lookup',
-        'extra_blacklist': ['support', 'owner', 'service']
+        'extra_blacklist': ['_powered_by']
     },
     'tg2num': {
         'url': 'https://intelx-premium-apipanel.vercel.app/INTELXDEMO?USERID={}',
